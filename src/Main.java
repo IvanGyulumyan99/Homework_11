@@ -143,5 +143,6 @@ public class Main {
         h.printBothName(Ivan, Maria);
 
         //2.8
+        h.printFirstNameIfTrueElsePrintLastName(true, Ivan);
     }
 }
