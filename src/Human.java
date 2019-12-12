@@ -50,4 +50,14 @@ public class Human {
     void printMale(Human human) {
         System.out.println(human.getGender() == 'm' ? "yes" : "no");
     }
+
+    void printOldestLastName(Human human[]) {
+        String max = human[0].getLastName();
+        for (int i = 0; i < human.length - 1; i++) {
+            if (human[i].getYear() > human[i + 1].getYear()) {
+                max = human[i + 1].getLastName();
+            }
+        }
+        System.out.println(max);
+    }
 }

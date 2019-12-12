@@ -132,9 +132,11 @@ public class Main {
         Human h = new Human();
         Human Ivan = new Human("Ivan", "Gyulumyan", 1999, 'm');
         Human Maria = new Human("Maria", "Ispiryan", 2003, 'f');
-        Human Ethan = new Human("Ethan", "Wilde", 2003, 'f');
+        Human Ethan = new Human("Ethan", "Wilde", 1995, 'f');
         h.printMale(Maria);
 
-
+        //2.6
+        Human arrayOfHumans[] = {Ivan, Maria, Ethan};
+        h.printOldestLastName(arrayOfHumans);
     }
 }
