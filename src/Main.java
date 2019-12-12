@@ -121,5 +121,8 @@ public class Main {
 
         //2.2
         System.out.println(a.mul(1.3, 1.3));
+
+        //2.3
+        a.floatIsGreater(3.123f, 1.2314f);
     }
 }
