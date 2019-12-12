@@ -104,5 +104,13 @@ public class Main {
         }
         System.out.println(isThereB ? "yes" : "no");
 
+        //12
+        int twelfthArray[] = {1, 2, 3, 4, 8, 16, 23, 32};
+        for (int elem : twelfthArray) {
+            if ((elem & elem - 1) == 0) {
+                System.out.print(elem + " ");
+            }
+        }
+
     }
 }
