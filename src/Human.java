@@ -64,4 +64,8 @@ public class Human {
     void printBothName(Human first, Human second) {
         System.out.println(first.getFirstName() + ", " + second.getFirstName());
     }
+
+    void printFirstNameIfTrueElsePrintLastName(boolean bool, Human human) {
+        System.out.println(bool ? human.getFirstName() : human.getLastName());
+    }
 }
