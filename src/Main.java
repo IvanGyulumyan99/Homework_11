@@ -4,5 +4,10 @@ public class Main {
         for(int elem:firstArray){
             System.out.print(elem + " ");
         }
+        System.out.println();
+        int secondArray[] = new int[10];
+        for(int elem:secondArray){
+            System.out.print(elem + " ");
+        }
     }
 }
