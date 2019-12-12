@@ -128,6 +128,13 @@ public class Main {
         //2.4
         a.maximumFromThreeFloats(2f, 3f, 1f);
 
-        
+        //2.5
+        Human h = new Human();
+        Human Ivan = new Human("Ivan", "Gyulumyan", 1999, 'm');
+        Human Maria = new Human("Maria", "Ispiryan", 2003, 'f');
+        Human Ethan = new Human("Ethan", "Wilde", 2003, 'f');
+        h.printMale(Maria);
+
+
     }
 }
