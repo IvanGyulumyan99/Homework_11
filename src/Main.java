@@ -83,6 +83,16 @@ public class Main {
         }
         System.out.println();
 
+        //10
+        int counter = 0;
+        String tenthString = "13456ewsdfvxcxzaaaqweqr1r12341zaa";
+        for (int i = 0; i < tenthString.length(); i++) {
+            if (tenthString.charAt(i) == 'a') {
+                counter++;
+            }
+        }
+        System.out.println(counter);
+
 
     }
 }
