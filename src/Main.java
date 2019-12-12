@@ -144,5 +144,9 @@ public class Main {
 
         //2.8
         h.printFirstNameIfTrueElsePrintLastName(true, Ivan);
+
+        //2.9
+        int array[] = {4, 3, 2, 1, 6, 4, 2, 4, 7, 8, 16};
+        System.out.println(a.printMaxElem(array));
     }
 }
