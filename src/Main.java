@@ -13,6 +13,16 @@ public class Main {
         for(int i = 1; i <= 1000; i++){
             thirdArray[i-1] = i;
         }
+        //4
+        byte fourthArray[] = new byte[30];
+        int counterForFourthArray = 0;
+        for(byte i = -30; i<31; i+=2){
+            if(i!=0) {
+                fourthArray[counterForFourthArray] = i;
+                counterForFourthArray++;
+            }
+        }
+
 
     }
 }
