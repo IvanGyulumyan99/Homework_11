@@ -8,7 +8,11 @@ public class Main {
         System.out.println();
         //2
         int secondArray[] = new int[10];
-
+        //3
+        int thirdArray[] = new int[1000];
+        for(int i = 1; i <= 1000; i++){
+            thirdArray[i-1] = i;
+        }
 
     }
 }
