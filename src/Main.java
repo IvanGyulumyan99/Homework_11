@@ -93,6 +93,16 @@ public class Main {
         }
         System.out.println(counter);
 
+        //11
+        String eleventhString = "123aaaba";
+        boolean isThereB = false;
+        for (int i = 0; i < eleventhString.length(); i++) {
+            if (eleventhString.charAt(i) == 'b') {
+                isThereB = true;
+                break;
+            }
+        }
+        System.out.println(isThereB ? "yes" : "no");
 
     }
 }
