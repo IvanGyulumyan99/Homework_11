@@ -113,9 +113,13 @@ public class Main {
                 System.out.print(elem + " ");
             }
         }
-
+        System.out.println();
         FunctionManager a = new FunctionManager();
-        //13
+
+        //2.1
         System.out.println(a.sum(1, 2));
+
+        //2.2
+        System.out.println(a.mul(1.3, 1.3));
     }
 }

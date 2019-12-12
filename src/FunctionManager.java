@@ -1,7 +1,11 @@
 public class FunctionManager {
-    FunctionManager func = new FunctionManager();
 
-    static public int sum(int a, int b) {
+    int sum(int a, int b) {
         return a + b;
     }
+
+    double mul(double a, double b){
+        return a*b;
+    }
+
 }
