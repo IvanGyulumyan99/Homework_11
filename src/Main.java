@@ -37,5 +37,15 @@ public class Main {
             }
         }
         System.out.println();
+        //7
+        double seventhArray[] = {1.1, 3, -26.7, 38.12, 42.4};
+        for (double elem : seventhArray) {
+            if (elem > 24.56) {
+                System.out.print(elem + " ");
+            }
+        }
+        System.out.println();
+
+
     }
 }
