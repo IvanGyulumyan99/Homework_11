@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
-        System.out.println("Hello2");
-        System.out.println("Hello3");
+        int firstArray[] = {1,2,3,4,5,6,7,8};
+        for(int elem:firstArray){
+            System.out.print(elem + " ");
+        }
     }
 }
