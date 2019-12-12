@@ -138,5 +138,8 @@ public class Main {
         //2.6
         Human arrayOfHumans[] = {Ivan, Maria, Ethan};
         h.printOldestLastName(arrayOfHumans);
+
+        //2.7
+        h.printBothName(Ivan, Maria);
     }
 }

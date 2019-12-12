@@ -60,4 +60,8 @@ public class Human {
         }
         System.out.println(max);
     }
+
+    void printBothName(Human first, Human second) {
+        System.out.println(first.getFirstName() + ", " + second.getFirstName());
+    }
 }
