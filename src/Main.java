@@ -1,3 +1,5 @@
+
+
 public class Main {
     public static void main(String[] args) {
         //1
@@ -112,5 +114,8 @@ public class Main {
             }
         }
 
+        FunctionManager a = new FunctionManager();
+        //13
+        System.out.println(a.sum(1, 2));
     }
 }
