@@ -30,5 +30,12 @@ public class Main {
             indexForFifthArray++;
         }
         //6
+        int sixthArray[] = {1, 5, 10, 22, 25, 30};
+        for (int elem : sixthArray) {
+            if (elem % 5 == 0) {
+                System.out.print(elem + " ");
+            }
+        }
+        System.out.println();
     }
 }
