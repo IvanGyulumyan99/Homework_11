@@ -45,6 +45,14 @@ public class Main {
             }
         }
         System.out.println();
+        //8
+        float eighthArray[] = {-37.1234f, -28.4563f, 0.5432f, 28.123441f, 39.123123f};
+        for (float elem : eighthArray) {
+            if (elem > -34.655f && elem < 35.56f) {
+                System.out.print(elem + " ");
+            }
+        }
+        System.out.println();
 
 
     }
