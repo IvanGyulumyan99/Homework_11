@@ -54,6 +54,35 @@ public class Main {
         }
         System.out.println();
 
+        //9
+        double ninthArray[] = {6.2, 6.1, 2.3, -8.4, 10.4, 44};
+        for (int i = 0; i < ninthArray.length - 1; i++) {
+            for (int j = 0; j < ninthArray.length - i - 1; j++) {
+                if (ninthArray[j + 1] < ninthArray[j]) {
+                    double temp = ninthArray[j];
+                    ninthArray[j] = ninthArray[j + 1];
+                    ninthArray[j + 1] = temp;
+                }
+            }
+        }
+        for (double elem : ninthArray) {
+            System.out.print(elem + " ");
+        }
+        System.out.println();
+        for (int i = 0; i < ninthArray.length - 1; i++) {
+            for (int j = 0; j < ninthArray.length - i - 1; j++) {
+                if (ninthArray[j + 1] > ninthArray[j]) {
+                    double temp = ninthArray[j];
+                    ninthArray[j] = ninthArray[j + 1];
+                    ninthArray[j + 1] = temp;
+                }
+            }
+        }
+        for (double elem : ninthArray) {
+            System.out.print(elem + " ");
+        }
+        System.out.println();
+
 
     }
 }
