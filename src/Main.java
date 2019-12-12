@@ -124,5 +124,10 @@ public class Main {
 
         //2.3
         a.floatIsGreater(3.123f, 1.2314f);
+
+        //2.4
+        a.maximumFromThreeFloats(2f, 3f, 1f);
+
+        
     }
 }

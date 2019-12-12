@@ -12,4 +12,8 @@ public class FunctionManager {
         System.out.println(first > second ? "yes" : "no");
     }
 
+    void maximumFromThreeFloats(float first, float second, float third) {
+        System.out.println(first > second ? first : (second > third ? second : third));
+    }
+
 }
