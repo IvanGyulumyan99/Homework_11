@@ -133,10 +133,11 @@ public class Main {
         Human Ivan = new Human("Ivan", "Gyulumyan", 1999, 'm');
         Human Maria = new Human("Maria", "Ispiryan", 2003, 'f');
         Human Ethan = new Human("Ethan", "Wilde", 1995, 'f');
+        Human Narek = new Human("Narek", "Gukasyan", 1998, 'm');
         h.printMale(Maria);
 
         //2.6
-        Human arrayOfHumans[] = {Ivan, Maria, Ethan};
+        Human arrayOfHumans[] = {Ivan, Maria, Ethan, Narek};
         h.printOldestLastName(arrayOfHumans);
 
         //2.7
@@ -152,5 +153,8 @@ public class Main {
         //2.10
         float floatsArray[] = {4f, 6f, 1f, 12f, 5f, 2f, -1f, -5f, 12f, 12f, 12f, 12f};
         System.out.println(a.minimalElementsIndex(floatsArray));
+
+        //2.11
+        h.sortByAge(arrayOfHumans);
     }
 }

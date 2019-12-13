@@ -68,4 +68,23 @@ public class Human {
     void printFirstNameIfTrueElsePrintLastName(boolean bool, Human human) {
         System.out.println(bool ? human.getFirstName() : human.getLastName());
     }
+
+    void sortByAge(Human array[]) {
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - i - 1; j++) {
+                if (array[j + 1].getYear() < array[j].getYear()) {
+                    Human temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+        for (Human elem : array) {
+            System.out.print("First name: " + elem.getFirstName());
+            System.out.print(", Last name: " + elem.getLastName());
+            System.out.print(", Age: " + (2019 - elem.getYear()));
+            System.out.print(", Gender: " + elem.getGender());
+            System.out.println();
+        }
+    }
 }
