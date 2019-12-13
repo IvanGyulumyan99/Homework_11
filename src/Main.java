@@ -148,5 +148,9 @@ public class Main {
         //2.9
         int array[] = {4, 3, 2, 1, 6, 4, 2, 4, 7, 8, 16};
         System.out.println(a.printMaxElem(array));
+
+        //2.10
+        float floatsArray[] = {4f, 6f, 1f, 12f, 5f, 2f, -1f, -5f, 12f, 12f, 12f, 12f};
+        System.out.println(a.minimalElementsIndex(floatsArray));
     }
 }

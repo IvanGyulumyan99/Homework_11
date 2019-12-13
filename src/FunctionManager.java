@@ -26,4 +26,14 @@ public class FunctionManager {
         return max;
     }
 
+    int minimalElementsIndex(float array[]) {
+        int minIndex = 0;
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
+                minIndex = i + 1;
+            }
+        }
+        return minIndex;
+    }
+
 }
