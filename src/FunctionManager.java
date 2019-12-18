@@ -36,4 +36,14 @@ public class FunctionManager {
         return minIndex;
     }
 
+    void adjacentElementsProduct(int arr[]) {
+        int maxIndex = 0;
+        for (int i = 0; i < arr.length - 2; i++) {
+            if (arr[i] * arr[i + 1] < arr[i + 1] * arr[i + 2]) {
+                maxIndex = i;
+            }
+        }
+        System.out.println(arr[maxIndex + 1] + " " + arr[maxIndex + 2]);
+    }
+
 }
