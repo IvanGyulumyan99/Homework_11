@@ -154,7 +154,7 @@ public class Main {
         float floatsArray[] = {4f, 6f, 1f, 12f, 5f, 2f, -1f, -5f, 12f, 12f, 12f, 12f};
         System.out.println(a.minimalElementsIndex(floatsArray));
 
-        //2.11
+        //2.11 asdfgh
         h.sortByAge(arrayOfHumans);
 
 
