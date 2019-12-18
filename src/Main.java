@@ -154,8 +154,10 @@ public class Main {
         float floatsArray[] = {4f, 6f, 1f, 12f, 5f, 2f, -1f, -5f, 12f, 12f, 12f, 12f};
         System.out.println(a.minimalElementsIndex(floatsArray));
 
-        h.sortByAge(arrayOfHumans);
-
-        System.out.println("conflict");
+        System.out.println("a");
+        System.out.println("b");
+        System.out.println("c");
+        System.out.println("d");
+        System.out.println("e");
     }
 }
